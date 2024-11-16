@@ -1,0 +1,23 @@
+ul li:first-child{
+    background-color: yellow;
+    color: green;
+}
+ul li:last-child{
+    background-color: black;
+    color: red;
+    cursor: pointer;
+}
+li{
+    text-align: center;
+    list-style-type:none;
+    padding: 10px;
+    width: 70px;
+}
+ul li:first-child:hover{
+    background-color: green;
+    color: aliceblue;
+}
+ul li:last-child:active{
+    background-color: red;
+    color: black;
+}
